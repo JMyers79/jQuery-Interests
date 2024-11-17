@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 118, 124);
+    height: 600px;
+}
+.movies {
+    margin-top: 20px;
+    width: 500px;
+    height:auto;
+    font-size: 20px;
+    border: 5px solid rgb(201, 98, 98);
+    background-color: antiquewhite;
+}
+
+.menu {
+    background-color: antiquewhite;
+    border: 5px dashed rgb(140, 69, 69);
+    width: 250px;
+    height:auto;
+    font-size: 20px;
+    position: relative;
+    top: 30px
+}
+
+.descLine{
+    font-size: 15px;
+    color: rgb(140, 69, 69);
+}
+
+.imgContainer{
+    display: flex;
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 130px;
+    right: 100px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.access {
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 100px;
+    left:280px;
+  }
+
+  .discount{
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    background-color: antiquewhite;
+    position: relative;
+    bottom: 120px;
+    left:280px;
+  }
+  label {
+    font-size: small;
+  }
